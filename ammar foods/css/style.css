@@ -1,0 +1,222 @@
+*{
+    margin: 0px; padding: 0px; box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    color: #333;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../images/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.hero-box{
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    /* transform: translate(-20%, 20%); */
+}
+h1{
+    color: #fff;
+    font-size: 180%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.btn:link , .btn:visited{
+    border:  solid 1px orange;
+    padding: 7px 15px; margin-left: 15px; color: #fff;
+    text-decoration: none; border-radius: 10px; 
+}
+.btn:hover , .btn:active{
+background-color: orangered; color: #fff;
+}
+
+.logo{
+    height: 100px; margin-top: 20px;
+    float: left;
+}
+.main-nav{
+    float: right;margin-top: 55px;
+    list-style: none;
+}
+.main-nav li{
+    display: inline; margin-left: 20px;
+}
+
+.main-nav li a{
+    color: #fff; text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: solid 3px transparent;
+    transition:border-bottom 1s;
+}
+
+.main-nav li a:hover{
+      border-bottom: solid 3px orange;
+}
+
+
+section{
+    padding: 40px 0px
+}
+
+h2{
+    font-size: 150%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    /* margin-bottom: 30px; */
+    text-align: center;
+
+}
+
+h2::after{
+    content: '';
+    display: block;
+    width: 100px; height: 4px;
+    background-color: orange;
+    margin: 15px auto;
+    border-radius: 2px;
+}
+
+.features-text{
+    width: 70%; margin:15px auto;
+    text-align: center;
+}
+
+.box i{
+    color: orange; font-size: 50px;
+}
+.box h3{
+margin-bottom: 20px;
+}
+.box p{
+line-height: 150%;
+}
+
+.meal{
+    padding: 0; background-color: #000;
+    overflow: hidden;
+}
+.meal img{
+width: 100%; opacity: .7; transform: scale(1.1); transition: 1s;
+}
+.meal img:hover{
+    opacity: 1;transform: scale(1);
+}
+
+
+.city img{
+    width: 100%; 
+}
+.city h3{
+    margin: 10px 0;  text-align: center;
+}
+
+.city-info{
+    display: flex ; margin-bottom: 20px;
+}
+
+.city-info i{
+    color: orangered; font-size: 18px;
+    margin-right: 20px;
+}
+
+#works{
+    background-color: #eee;
+}
+.app-screen{
+    width: 40%; 
+}
+
+.step-box{
+    margin-top: 30px;
+}
+
+.step-box:first-child{
+    text-align: right; padding-right: 3%;
+}
+
+.step-box:last-child{
+  text-align: left;padding-left: 3%;
+  margin-top: 70px;
+}
+.step{
+    display: flex; margin-bottom: 20px;
+}
+
+.step div{
+    border: solid 2px orange; color: orange;
+    width: 50px; height: 50px;border-radius: 50%;
+    padding: 12px; text-align: center;
+}
+
+.btn-app img{
+    height: 50px; width: auto; margin-right: 10px;
+}
+
+#testimonials{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../images/back-customers.jpg);
+    background-position: center;  background-size: cover;
+    background-attachment: fixed; color: #fff;
+}
+
+blockquote{
+    padding: 2%; font-style: italic; line-height: 150%; margin-top: 30px; position: relative;
+}
+blockquote::before{
+    content: "\201c"; font-size: 500%; display: block;
+    position: absolute; top: -5px; left: -15px;
+}
+
+cite{
+    margin-top: 25px; display: block;
+}
+
+cite img{
+    height: 45px;border-radius: 50%; vertical-align: middle; margin-right: 10px;
+}
+
+input[type=text]{
+        background-color: orchid; border: peru solid 2px; border-radius: 6px; padding: 5px; 
+}
+
+footer{
+    background-color: #333; padding: 20px 0px;
+}
+
+footer p{
+    text-align: center; color: #eee;
+}
+
+
+.footer-nav{
+    float: left; list-style: none;
+}
+.footer-nav li{
+    display: inline; margin-left: 10px;
+}
+
+.footer-nav li a{
+    color: #888; text-decoration: none;
+}
+
+.footer-nav li a:hover{
+    text-decoration: underline; color: #ddd;
+}
+
+
+.social-nav{
+    float: right; list-style: none;
+}
+.social-nav li{
+    display: inline; margin-left: 10px;
+}
+
+.social-nav li a{
+    color: #888; text-decoration: none;
+}
+
+.social-nav li a:hover{
+    text-decoration: underline; color: #ddd;
+}
