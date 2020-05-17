@@ -1,0 +1,13 @@
+.navbar{
+box-shadow: 0px 2px 6px #3292a6; opacity: .7;
+}
+
+.nav-item{
+    margin-left: 30px; font-size: larger;
+}
+
+header{
+    min-height: 100vh ;
+    background-image:linear-gradient(rgba(50, 146, 166,.7) , rgba(50, 146, 166,.7)) ,url(../images/mountains.jpg);
+    background-position: center; background-size: cover;
+}
